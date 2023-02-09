@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerView.PersonC">
+    <children>
+        <Button fx:id="btOK" layoutX="248.0" layoutY="285.0" mnemonicParsing="false" onAction="#save" text="OK" />
+        <Label layoutX="67.0" layoutY="87.0" text="id" />
+        <Label layoutX="58.0" layoutY="116.0" text="name" />
+        <Label layoutX="58.0" layoutY="151.0" text="wohnort" />
+        <TextField fx:id="tfID" layoutX="151.0" layoutY="83.0" />
+        <TextField fx:id="tfName" layoutX="151.0" layoutY="112.0" />
+        <TextField fx:id="tfWohnort" layoutX="151.0" layoutY="147.0" />
+    </children>
+</AnchorPane>
+
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controllerView.PersonC"
+            prefHeight="400.0" prefWidth="600.0">
+
+</AnchorPane>

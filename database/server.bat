@@ -1,0 +1,1 @@
+start C:\"Program Files"\glassfish-6.2.5\glassfish6\javadb\bin\startNetworkServer

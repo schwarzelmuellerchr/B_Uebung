@@ -37,7 +37,7 @@ public class Database {
 
     public void refresh() {
         try{
-            Connection connection = DriverManager.getConnection("jdbc:derby://localhost:1527/C:/Pilger/B_Uebung2/database/B_Uebung", "B_Uebung", "B_Uebung");
+            Connection connection = DriverManager.getConnection("jdbc:derby://localhost:1527/C:/Pilger/Github Übungen/B_Uebung/database/B_Uebung", "B_Uebung", "B_Uebung");
 
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("Select PERSON.ID,\"name\",WOHNORT\n" +

@@ -43,7 +43,7 @@ public class PersonC {
             stage.setScene(scene);
             stage.setTitle("PersonInput");
             stage.show();
-        }catch(IOException e){
+        }catch(Exception e){
             e.printStackTrace();
             Platform.exit();
         }
